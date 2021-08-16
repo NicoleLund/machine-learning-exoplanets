@@ -1,9 +1,8 @@
 # machine-learning-exoplanets
-# leaflet-challenge
 UofA Data Analytics Bootcamp Homework Assignment 21-Machine-Learning
 
 ### Assignment Description
-Used NASA Kepler space telescope measurement data to classify exoplanet candidates.  Multiple machine learning model types are explored to learn how to implement and assess which model is the best fit for this data set.  The best model will yield the highest accuracy score (at least 0.85 required) and reasonable training time.
+Used NASA Kepler space telescope measurement data to classify exoplanet candidates.  Multiple machine learning model types were explored to learn how to implement and assess which model is the best fit for this data set.  The best fit model required an accuracy score at at least 0.85 and reasonable training time.
 
 ### Tools Utilized
 Python, Pandas, sklearn, tensorflow
@@ -15,12 +14,12 @@ Python, Pandas, sklearn, tensorflow
     * archive: Copies of the full data set from NASA and Kaggle as reference. I chose to continue analysis with the partially cleaned data provided by UofA Data Analytics Bootcamp.  Note, the NASA data set includes descriptive column name information.
 * c_ feature_selection: Decision tree and random forest analyses were performed to determine if a smaller subset of features would produce better results by limiting overfitting conditions.
 * d_regression: Linear Regression and Logistic Regression analyses were performed for 3 sets of input features.
-* e_SVM: SVC analysis was performed for 3 sets of input features.
+* e_SVC: SVC analysis was performed for 3 sets of input features.
 * f_NN: Sequential 1-layer neural network analyses were performed for 3 sets of input features.
 * g_deep_learning: Sequential 2-layer neural network analysis was performed for the full set of features.
-* 
-* 
-* images: Webpage screenshots.
+* images: Feature assessment plots.
+* bestFit_SVC*: Jupyter notebook and joblib save files for the model of best fit. Note, these files duplicate the results of the e_SVC folder. 
+* model_assessment.csv: Table of model scores.
 * LICENSE: MIT License Disclosure
 
 ### Best Fit Model Selection
@@ -67,21 +66,12 @@ The overall testing data score met the model accuracy requirement at 0.874.  An 
         macro avg       0.85      0.83      0.84      2098
         weighted avg    0.88      0.87      0.87      2098
 
+### Model Load Instructions
+1.  
 
-
-### Run Instructions
-1. Open 
-
-### Completed Bonus Webpage (d_Leaflet-Step-2)
-Webpage upon initial load
-
-![Initial Load](e_images/webpage_initial_load.png)
-
-Webpage after user selections
-![User Selections](e_images/webpage_user_selections.png)
 
 ### Source Data and Starter Code
 * Starter code and data provided by UofA Data Analytics Bootcamp
-* Project inspiration from Kaggle
-* Full NASA Kepler space telescope data set from
-* Keras hyperparameter tuning code example from
+* Project inspiration from Kaggle at <a href="https://www.kaggle.com/nasa/kepler-exoplanet-search-results" target="_blank">https://www.kaggle.com/nasa/kepler-exoplanet-search-results</a>
+* Original NASA Kepler space telescope data set from <a href="https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=koi" target="_blank">https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=koi</a>
+* Keras hyperparameter tuning code example from <a href="https://machinelearningmastery.com/grid-search-hyperparameters-deep-learning-models-python-keras/" target="_blank">https://machinelearningmastery.com/grid-search-hyperparameters-deep-learning-models-python-keras/</a>
