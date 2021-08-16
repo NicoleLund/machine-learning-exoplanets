@@ -19,6 +19,7 @@ Python, Pandas, sklearn, tensorflow
 * g_deep_learning: Sequential 2-layer neural network analysis was performed for the full set of features.
 * images: Feature assessment plots.
 * bestFit_SVC*: Jupyter notebook and joblib save files for the model of best fit. Note, these files duplicate the results of the e_SVC folder. 
+* load_saved_model.ipynb: Jupyter Notebook for loading the saved model output file.
 * model_assessment.csv: Table of model scores.
 * LICENSE: MIT License Disclosure
 
@@ -67,8 +68,7 @@ The overall testing data score met the model accuracy requirement at 0.874.  An 
         weighted avg    0.88      0.87      0.87      2098
 
 ### Model Load Instructions
-1.  
-
+Follow the template in load_saved_model.ipynb to load the saved models and display results.
 
 ### Source Data and Starter Code
 * Starter code and data provided by UofA Data Analytics Bootcamp
